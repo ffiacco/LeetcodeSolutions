@@ -28,7 +28,6 @@ class Solution {
                 riporto = 0;
             }
             resultIterator.val = res;
-            System.out.println("iterator1:" + iterator1 + " iterator2:" + iterator2);
             if (iterator1 != null && iterator1.next != null){
                 resultIterator.next = new ListNode(0);
                 resultIterator = resultIterator.next;
